@@ -22,6 +22,8 @@ body{
     width: 100%;
     background-color: dimgray;
     height: 75px;
+    align-items: center;
+    display: flex;
 }
 
 .link{
@@ -39,6 +41,12 @@ body{
 footer{
     background-color: rgb(161, 161, 161);
     height: 300px;
+    width: 100%;
+    /*
+    position: fixed;
+    bottom: 0px;
+    display: fixed;
+    */
 }
 
 .linkList{
@@ -80,9 +88,11 @@ main{
 
 }
 
+/*
 .blogMetin{
 
 }
+*/
 
 .blogImg{
     height: 200px;
@@ -91,4 +101,8 @@ main{
 
 section{
     margin-bottom: 20px;
+}
+
+video{
+    width: 250px;
 }
